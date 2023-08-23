@@ -84,6 +84,12 @@ header {
     padding: 8px 32px;
 }
 
+.button:hover {
+    background-color: #2867ce;
+    color: #e0e0e0;
+    border: 1px solid #2867ce;
+}
+
 .hero-text-image {
     height: 250px;
     width: 500px;
