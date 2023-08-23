@@ -152,7 +152,7 @@ header {
     width: 100%;
     object-fit: cover;
 }
-/*
+
 .quote-container {
     height: 50vh;
     background-color: #E5E7EB;
@@ -176,7 +176,7 @@ header {
     margin-left: auto;
     margin-right: 24px;
 }
-
+/*
 .call-to-action-container {
     background-color: #e9f1f5;
     height: 40vh;
@@ -420,7 +420,7 @@ footer > p {
     
  
     .some-random-info-container {        
-        height: 700px;
+        height: 730px;
         padding: 48px 0px;
     }
     
@@ -440,31 +440,24 @@ footer > p {
         height: 35vw;
     }
 
-  /*  
+  
     .quote-container {
-        height: 50vh;
-        background-color: #E5E7EB;
-        padding: 0 310px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 320px;
+        padding: 128px 96px 96px;
+        text-align: center;
     }
     
     .quote {
-        font-size: 36px;
-        font-weight: 300;
-        font-style: italic;
-        color: #1F2937;
+        font-size: 24px;
     }
     
     .quote-author {
-        font-size: 24px;
-        font-weight: bold;
-        margin-left: auto;
-        margin-right: 24px;
+        font-size: 18px;
+        align-self: flex-end;
+        padding-top: 12px;
+        margin-right: -30px;
     }
-    
+   /* 
     .call-to-action-container {
         background-color: #e9f1f5;
         height: 40vh;
