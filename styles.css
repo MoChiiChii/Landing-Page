@@ -73,6 +73,10 @@ header {
     color: #E5E7EB;
 }
 
+.hero-text-signup-button {
+    margin-right: auto;
+}
+
 .button {
     background-color: #3882F6;
     font-size: 18px;
@@ -80,7 +84,6 @@ header {
     color: #F9FAF8;
     border: 1px solid #3882F6;
     border-radius: 10px;
-    margin-right: auto;
     padding: 8px 32px;
 }
 
@@ -172,4 +175,47 @@ header {
     font-weight: bold;
     margin-left: auto;
     margin-right: 24px;
+}
+
+.call-to-action-container {
+    background-color: #e9f1f5;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-block {
+    width: 70%;
+    height: 45%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-to-action-box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.call-to-action-box-left > h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.call-to-action-box-left > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.call-to-action-button {
+    border: 2px solid #e9f1f5;
+}
+
+.call-to-action-button:hover {
+    border: 2px solid #e0e0e0;
 }
