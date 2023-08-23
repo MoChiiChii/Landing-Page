@@ -219,7 +219,7 @@ header {
 .call-to-action-button:hover {
     border: 2px solid #e0e0e0;
 }
-/*
+
 footer {
     background-color: #1F2937;
     height: 12vh;
@@ -236,7 +236,7 @@ footer > p {
     flex-direction: row;
     gap: 8px;
 }
-*/
+
 
 @media (max-width: 480px) {
     body {
@@ -480,21 +480,8 @@ footer > p {
         font-size: 28px;
     }
 
-   /* 
+   
     footer {
-        background-color: #1F2937;
-        height: 12vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        height: 86px;
     }
-    
-    footer > p {
-        color: #E5E7EB;
-        font-size: 18px;
-        display: flex;
-        flex-direction: row;
-        gap: 8px;
-    }
-}*/
+}
