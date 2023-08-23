@@ -105,7 +105,7 @@ header {
     width: 100%;
     object-fit: cover;
 }
-/*
+
 .some-random-info-container {
     background-color: #e9f1f5;
     height: 60vh;
@@ -152,7 +152,7 @@ header {
     width: 100%;
     object-fit: cover;
 }
-
+/*
 .quote-container {
     height: 50vh;
     background-color: #E5E7EB;
@@ -418,54 +418,29 @@ footer > p {
         margin: 0;
     }
     
- /*   
-    .some-random-info-container {
-        background-color: #e9f1f5;
-        height: 60vh;
-        padding: 48px 200px 64px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 48px;
-    }
-    
-    .some-random-info-header {
-        font-size: 36px;
-        font-weight: 900;
-        color: #1F2937;
+ 
+    .some-random-info-container {        
+        height: 700px;
+        padding: 48px 0px;
     }
     
     .some-random-info-block {
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 48px;
+        column-gap: 50px;
+        justify-content: center;
     }
     
     .some-random-info-boxes {
-        width: 175px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap:12px;
+        width: 35vw;
     }
     
     .some-random-info-images {
-        height: 175px;
-        width: 100%;
-        background-color: lightgray;
-        border: 3px solid #3882F6;
-        border-radius: 10px;
+        height: 35vw;
     }
-    
-    .some-random-info-images > img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-    
+
+  /*  
     .quote-container {
         height: 50vh;
         background-color: #E5E7EB;
