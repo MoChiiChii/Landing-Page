@@ -219,3 +219,20 @@ header {
 .call-to-action-button:hover {
     border: 2px solid #e0e0e0;
 }
+
+footer {
+    background-color: #1F2937;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
