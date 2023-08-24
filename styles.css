@@ -242,10 +242,10 @@ header {
 .call-to-action-button:hover {
     border: 2px solid #e0e0e0;
 }
-/*
+
 footer {
     background-color: #1F2937;
-    height: 12vh;
+    padding: 28px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -259,7 +259,7 @@ footer > p {
     flex-direction: row;
     gap: 8px;
 }
-*/
+
 @media (max-width: 768px) {
     body {
         margin: 0px;
@@ -352,12 +352,8 @@ footer > p {
     .call-to-action-box-left > h2 {
         font-size: 28px;
     }
-/*
-    footer {
-        height: 86px;
-    }
 }
-*/
+
 @media (max-width: 480px) {
     header {
         background-color: #111c2b;
@@ -433,13 +429,14 @@ footer > p {
     .call-to-action-box-left {
         min-width: 0;
     }
-/*
+
     footer {
-        height: 70px;
+        padding: 24px;
     }
     
     footer > p {
         font-size: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
     }    
 }
- */
