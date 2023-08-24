@@ -139,7 +139,6 @@ header {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-
     row-gap: 48px;
 }
 
@@ -151,8 +150,6 @@ header {
     text-align: center;
     gap:12px;
     flex: 1 1 22%;
-
-    border: 2px solid orange;
 }
 
 .some-random-info-images {
