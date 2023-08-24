@@ -47,22 +47,26 @@ header {
 .header-links a:hover {
     color: aquamarine;
 }
-/* 
+
 .hero-text {
     background-color: #1F2937;
-    padding: 0 200px;
-    height: 50vh;
+    padding: 10% 15%;
     width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 10%;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 36px;
 }
 
 .hero-text-block-left {
     width: 40%;
+    min-width: 230px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    flex: 1;
 }
 
 .hero-text-header {
@@ -100,9 +104,9 @@ header {
 
 .hero-text-image {
     height: 250px;
-    width: 500px;
-    background-color: grey;
-    margin-left: auto;
+    width: 400px;
+    min-width: 300px;
+    flex: 1 1 auto;
 }
 
 .hero-text-image > img {
@@ -110,7 +114,7 @@ header {
     width: 100%;
     object-fit: cover;
 }
-
+/*
 .some-random-info-container {
     background-color: #e9f1f5;
     height: 60vh;
@@ -255,13 +259,12 @@ footer > p {
         gap: 12px;
     }
 
-   /*
     .hero-text {
-        padding: 0px;
-        height: 630px;
+        padding: 0 0 10%;
         flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        row-gap: 0px;
         text-align: center;
-        justify-content: flex-end;
     }
     
     .hero-text-block-left {
@@ -294,8 +297,7 @@ footer > p {
         align-self: flex-end;
         margin: 0;
     }
-    
- 
+/*
     .some-random-info-container {        
         height: 730px;
         padding: 48px 0px;
@@ -382,19 +384,28 @@ footer > p {
         justify-content: center;
         align-items: center;
     }
-/*  
+
     .hero-text {
-        padding: 0px;
-        height: 580px;
+        padding: 0% 0% 10%;
         flex-direction: column;
     }
     
     .hero-text-block-left {
+        background-color: #1F2937;
         padding: 32px 18px 24px;
+        margin: 0;
         width: 100%;
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         gap: 18px;
+    }
+
+    .hero-text-header {
+        color: #F9FAF8;
+    }
+
+    .hero-text-subtext {
+        color: #E5E7EB;
     }
 
     .hero-text-signup-button {
@@ -403,11 +414,9 @@ footer > p {
     }
 
     .hero-text-image {
-        height: 200px;
-        width: 90%;
         margin: 16px 0px 0px;
     }
-    
+/*
     .some-random-info-container {
         height: 750px;
         padding: 32px 18px 24px;
